@@ -1,2 +1,3 @@
 import foods from "./foods/foods.json";
-export { foods };
+import restaurants from "./restaurants/restaurants.json";
+export { foods, restaurants };

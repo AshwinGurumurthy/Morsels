@@ -1,0 +1,206 @@
+[
+  {
+    "_id": "r001",
+    "name": "Spice Route",
+    "categories": ["Indian"],
+    "image": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
+    "rating": 4.7,
+    "reviews": 1240,
+    "price": "$$",
+    "distance": "0.6 mi",
+    "eta": "25 min",
+    "address": "184 Cambridge St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/spice-route/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=spice+route" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=spice+route+boston"
+  },
+  {
+    "_id": "r002",
+    "name": "Tandoor Palace",
+    "categories": ["Indian"],
+    "image": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+    "rating": 4.5,
+    "reviews": 980,
+    "price": "$$",
+    "distance": "1.1 mi",
+    "eta": "30 min",
+    "address": "55 Beacon St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/tandoor-palace/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=tandoor+palace" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=tandoor+palace+boston"
+  },
+  {
+    "_id": "r003",
+    "name": "Bella Notte",
+    "categories": ["Italian"],
+    "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    "rating": 4.8,
+    "reviews": 2100,
+    "price": "$$$",
+    "distance": "0.4 mi",
+    "eta": "35 min",
+    "address": "12 Hanover St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/bella-notte/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=bella+notte" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=bella+notte+boston"
+  },
+  {
+    "_id": "r004",
+    "name": "Trattoria Roma",
+    "categories": ["Italian"],
+    "image": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
+    "rating": 4.6,
+    "reviews": 1560,
+    "price": "$$",
+    "distance": "0.9 mi",
+    "eta": "28 min",
+    "address": "240 Salem St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/trattoria-roma/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=trattoria+roma" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=trattoria+roma+boston"
+  },
+  {
+    "_id": "r005",
+    "name": "Casa Verde",
+    "categories": ["Mexican"],
+    "image": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg",
+    "rating": 4.6,
+    "reviews": 1820,
+    "price": "$",
+    "distance": "0.7 mi",
+    "eta": "20 min",
+    "address": "98 Boylston St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/casa-verde/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=casa+verde" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=casa+verde+boston"
+  },
+  {
+    "_id": "r006",
+    "name": "El Patron",
+    "categories": ["Mexican"],
+    "image": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg",
+    "rating": 4.4,
+    "reviews": 720,
+    "price": "$",
+    "distance": "1.4 mi",
+    "eta": "32 min",
+    "address": "401 Tremont St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/el-patron/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=el+patron" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=el+patron+boston"
+  },
+  {
+    "_id": "r007",
+    "name": "Bangkok Garden",
+    "categories": ["Thai"],
+    "image": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
+    "rating": 4.7,
+    "reviews": 1330,
+    "price": "$$",
+    "distance": "0.5 mi",
+    "eta": "22 min",
+    "address": "177 Newbury St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/bangkok-garden/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=bangkok+garden" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=bangkok+garden+boston"
+  },
+  {
+    "_id": "r008",
+    "name": "Sukhothai",
+    "categories": ["Thai"],
+    "image": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
+    "rating": 4.5,
+    "reviews": 890,
+    "price": "$$",
+    "distance": "1.2 mi",
+    "eta": "27 min",
+    "address": "62 Berkeley St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/sukhothai/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=sukhothai" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=sukhothai+boston"
+  },
+  {
+    "_id": "r009",
+    "name": "Sakura",
+    "categories": ["Japanese"],
+    "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
+    "rating": 4.8,
+    "reviews": 2640,
+    "price": "$$$",
+    "distance": "0.8 mi",
+    "eta": "33 min",
+    "address": "21 Park Plaza, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/sakura/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=sakura+sushi" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=sakura+sushi+boston"
+  },
+  {
+    "_id": "r010",
+    "name": "Tokyo Diner",
+    "categories": ["Japanese"],
+    "image": "https://www.themealdb.com/images/media/meals/swrqwq1511793859.jpg",
+    "rating": 4.4,
+    "reviews": 1110,
+    "price": "$$",
+    "distance": "1.5 mi",
+    "eta": "29 min",
+    "address": "8 Causeway St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/tokyo-diner/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=tokyo+diner" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=tokyo+diner+boston"
+  },
+  {
+    "_id": "r011",
+    "name": "Hometown Grill",
+    "categories": ["American"],
+    "image": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg",
+    "rating": 4.6,
+    "reviews": 1980,
+    "price": "$$",
+    "distance": "0.3 mi",
+    "eta": "18 min",
+    "address": "300 Washington St, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/hometown-grill/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=hometown+grill" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=hometown+grill+boston"
+  },
+  {
+    "_id": "r012",
+    "name": "Smokehouse",
+    "categories": ["American"],
+    "image": "https://www.themealdb.com/images/media/meals/quuxsx1511796653.jpg",
+    "rating": 4.5,
+    "reviews": 870,
+    "price": "$$",
+    "distance": "1.0 mi",
+    "eta": "26 min",
+    "address": "150 Seaport Blvd, Boston MA",
+    "takeoutLinks": [
+      { "service": "DoorDash", "url": "https://www.doordash.com/search/store/smokehouse/" },
+      { "service": "Uber Eats", "url": "https://www.ubereats.com/search?q=smokehouse+bbq" }
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=smokehouse+boston"
+  }
+]
