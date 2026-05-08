@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "f001",
+    "name": "Chicken Tikka Masala",
+    "category": "Indian",
+    "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
+    "description": "Tender chicken in a creamy, spiced tomato sauce. Warm, rich and deeply satisfying.",
+    "tags": ["spicy", "creamy", "comfort"],
+    "ingredients": ["chicken breast", "tomato sauce", "heavy cream", "garam masala", "garlic", "ginger", "cumin", "paprika", "onion", "butter"],
+    "cookTime": 40,
+    "calories": 480
+  },
+  {
+    "_id": "f002",
+    "name": "Spaghetti Carbonara",
+    "category": "Italian",
+    "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    "description": "Classic Roman pasta with eggs, pecorino, pancetta and black pepper. Simple but iconic.",
+    "tags": ["pasta", "quick", "classic"],
+    "ingredients": ["spaghetti", "eggs", "pancetta", "pecorino romano", "black pepper", "salt", "parmesan"],
+    "cookTime": 20,
+    "calories": 540
+  },
+  {
+    "_id": "f003",
+    "name": "Beef Tacos",
+    "category": "Mexican",
+    "area": "Mexican",
+    "image": "https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg",
+    "description": "Seasoned ground beef in crispy shells with fresh toppings. A crowd favorite every time.",
+    "tags": ["mexican", "quick", "crowd-pleaser"],
+    "ingredients": ["ground beef", "taco shells", "cheddar cheese", "sour cream", "salsa", "lettuce", "tomato", "cumin", "chili powder", "garlic powder"],
+    "cookTime": 25,
+    "calories": 420
+  },
+  {
+    "_id": "f004",
+    "name": "Margherita Pizza",
+    "category": "Italian",
+    "area": "Italian",
+    "image": "https://www.themealdb.com/images/media/meals/x0lk931587671540.jpg",
+    "description": "Fresh mozzarella, tomato sauce and basil on a thin crispy crust. Pure Italian simplicity.",
+    "tags": ["pizza", "vegetarian", "classic"],
+    "ingredients": ["pizza dough", "tomato sauce", "fresh mozzarella", "fresh basil", "olive oil", "salt"],
+    "cookTime": 30,
+    "calories": 380
+  },
+  {
+    "_id": "f005",
+    "name": "Pad Thai",
+    "category": "Thai",
+    "area": "Thai",
+    "image": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
+    "description": "Stir-fried rice noodles with shrimp, egg, bean sprouts and peanuts. Sweet, sour and savory.",
+    "tags": ["noodles", "asian", "stir-fry"],
+    "ingredients": ["rice noodles", "shrimp", "eggs", "bean sprouts", "peanuts", "fish sauce", "lime", "green onions", "tamarind paste", "sugar"],
+    "cookTime": 30,
+    "calories": 460
+  },
+  {
+    "_id": "f006",
+    "name": "Classic Cheeseburger",
+    "category": "American",
+    "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg",
+    "description": "Juicy beef patty with melted cheddar, lettuce, tomato and pickles on a toasted bun.",
+    "tags": ["american", "comfort", "classic"],
+    "ingredients": ["ground beef", "cheddar cheese", "brioche bun", "lettuce", "tomato", "pickles", "onion", "ketchup", "mustard", "mayo"],
+    "cookTime": 15,
+    "calories": 650
+  },
+  {
+    "_id": "f007",
+    "name": "Salmon Teriyaki",
+    "category": "Japanese",
+    "area": "Japanese",
+    "image": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg",
+    "description": "Glazed salmon fillet with a sweet soy teriyaki sauce. Light, healthy and full of flavor.",
+    "tags": ["healthy", "seafood", "asian"],
+    "ingredients": ["salmon fillet", "soy sauce", "mirin", "sake", "sugar", "ginger", "garlic", "sesame seeds", "green onions"],
+    "cookTime": 20,
+    "calories": 340
+  },
+  {
+    "_id": "f008",
+    "name": "Butter Chicken",
+    "category": "Indian",
+    "area": "Indian",
+    "image": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+    "description": "Tender chicken in a velvety, mildly spiced tomato-butter sauce. The ultimate comfort curry.",
+    "tags": ["indian", "creamy", "mild"],
+    "ingredients": ["chicken", "butter", "tomatoes", "cream", "onion", "garlic", "ginger", "garam masala", "turmeric", "coriander"],
+    "cookTime": 45,
+    "calories": 510
+  },
+  {
+    "_id": "f009",
+    "name": "Caesar Salad",
+    "category": "American",
+    "area": "American",
+    "image": "https://www.themealdb.com/images/media/meals/quuxsx1511796653.jpg",
+    "description": "Crisp romaine, parmesan, croutons and creamy Caesar dressing. Fresh and satisfying.",
+    "tags": ["healthy", "salad", "quick"],
+    "ingredients": ["romaine lettuce", "parmesan", "croutons", "caesar dressing", "lemon", "black pepper", "anchovies", "garlic"],
+    "cookTime": 10,
+    "calories": 290
+  },
+  {
+    "_id": "f010",
+    "name": "Beef Ramen",
+    "category": "Japanese",
+    "area": "Japanese",
+    "image": "https://www.themealdb.com/images/media/meals/swrqwq1511793859.jpg",
+    "description": "Rich beef broth with springy noodles, soft-boiled egg, chashu pork and green onions.",
+    "tags": ["noodles", "comfort", "asian"],
+    "ingredients": ["ramen noodles", "beef broth", "chashu pork", "soft-boiled egg", "nori", "green onions", "bamboo shoots", "soy sauce", "sesame oil"],
+    "cookTime": 60,
+    "calories": 520
+  }
+]
