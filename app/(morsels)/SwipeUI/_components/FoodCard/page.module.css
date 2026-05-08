@@ -1,0 +1,168 @@
+.card {
+  background: var(--card);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 520px;
+  cursor: pointer;
+  animation: cardEnter 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  padding: 0;
+}
+
+.card:hover { transform: translateY(-6px); }
+.card:active { transform: translateY(-2px) scale(0.99); }
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--subtext);
+  font-size: 14px;
+  cursor: default;
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--chip);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 55%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  pointer-events: none;
+}
+
+.pips {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+}
+
+.pip {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  transition: background 0.4s ease,
+    transform 0.4s cubic-bezier(0.2, 1.5, 0.5, 1);
+}
+
+.pipFilled { background: var(--accent2); }
+.pipPop { transform: scale(1.7); }
+
+.flashWrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.floatUp {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+  animation: morselsFloatUp 0.9s ease-out forwards;
+}
+
+.unlock {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--accent2);
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 14px 40px rgba(34, 197, 94, 0.55);
+  white-space: nowrap;
+  animation: morselsUnlock 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.titleArea {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 14px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.foodName { font-size: 22px; font-weight: 700; line-height: 1.2; }
+.foodMeta { font-size: 12px; opacity: 0.85; margin-top: 4px; }
+
+.body {
+  padding: 16px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.description {
+  color: var(--subtext);
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.tag {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--chip-text);
+  font-weight: 500;
+}
+
+@keyframes cardEnter {
+  from { opacity: 0; transform: translateY(24px) scale(0.94); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes morselsFloatUp {
+  0%   { opacity: 0; transform: translate(-50%, 30%) scale(0.6); }
+  15%  { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+  100% { opacity: 0; transform: translate(-50%, -160%) scale(1); }
+}
+
+@keyframes morselsUnlock {
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  20%  { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+  60%  { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(1.05); }
+}
