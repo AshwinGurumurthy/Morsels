@@ -11,6 +11,7 @@ const ROUTE_TITLES: Record<string, { title: string; subWith?: string }> = {
   Cook: { title: "Make at home" },
   Takeout: { title: "Takeout near you" },
   DineIn: { title: "Dine in nearby" },
+  Chat: { title: "Let's get cooking" },
 };
 
 export default function Header() {
