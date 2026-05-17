@@ -16,12 +16,41 @@ export default function CookPage({
   const router = useRouter();
   const { addPick, advanceFromPick } = useApp();
   const [cart, setCart] = useState<string[]>([]);
+  const [ordered, setOrdered] = useState(false);
   const food = findFood(foodId);
 
   if (!food) {
     return (
       <SectionShell>
         <div className={styles.notFound}>Food not found</div>
+      </SectionShell>
+    );
+  }
+
+  if (ordered) {
+    return (
+      <SectionShell heroSrc={food.image} heroAlt={food.name}>
+        <div className={styles.success}>
+          <div className={styles.successIcon}>✓</div>
+          <div className={styles.name}>Order placed!</div>
+          <div className={styles.meta}>
+            {cart.length} ingredients on the way for {food.name}
+          </div>
+        </div>
+        <div className={styles.successActions}>
+          <button
+            className={styles.btnGhost}
+            onClick={() => router.push("/SwipeUI")}
+          >
+            Back to discovery
+          </button>
+          <button
+            className={styles.btnPrimary}
+            onClick={() => router.push(`/SwipeUI/Chat/${food._id}`)}
+          >
+            Let&apos;s get cooking!
+          </button>
+        </div>
       </SectionShell>
     );
   }
@@ -34,7 +63,7 @@ export default function CookPage({
   const placeOrder = () => {
     addPick(food);
     advanceFromPick(food);
-    router.push("/SwipeUI");
+    setOrdered(true);
   };
 
   return (
